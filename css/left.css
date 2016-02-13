@@ -1,0 +1,57 @@
+div.left_nav {
+    width: 180px;
+}
+
+div.left_nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+div.left_nav ul li {
+    width: 170px;
+    overflow: hidden;
+}
+
+div.left_nav ul li a {
+    display: block;
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #E3E7EA;
+    margin-left: 5px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin-bottom: 15px;
+    margin-left: 0;
+    text-align: center;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.75);
+}
+/* 突出显示选择路径,，是因为:hover 事件会沿着元素的结构层次“向上冒泡”。 */
+div.left_nav ul li:hover > a {
+    padding-left: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    opacity: 0.5;
+    transition: all 0.2s;
+}
+
+
+/* 内嵌导航栏部分*/
+div.left_nav ul .third_nav{
+    margin-left: 50px;
+}
+div.left_nav ul .third_nav, div.left_nav ul .third_nav li {
+    width: 120px;
+    
+}
+
+div.left_nav ul .third_nav a {
+    display: none;
+}
+
+div.left_nav ul li:hover .third_nav a {
+    display: block;
+    font-size: 16px;
+    background-color: #E3E7EA;
+  
+}

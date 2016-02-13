@@ -1,0 +1,155 @@
+body, div, form, label, input, footer {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-image: url(../images/background.jpg);
+    font-size: 12px;
+    z-index: 1;
+}
+
+
+/* logo部分 */
+
+.logo {
+    width: 500px;
+    height: 160px;
+    margin: 12% auto 0 auto;
+    background: url(../images/admin_logo.png) no-repeat center top;
+    z-index: 9;
+}
+
+label {
+    display: none;
+}
+
+
+/* 输入框部分 */
+
+.wrapper {
+    position: relative;
+    width: 540px;
+    height: 80px;
+    background-color: #E3E7EA;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.75);
+}
+
+.username, .pwd {
+    font-size: 30px;
+    color: gray;
+    width: 247px;
+    height: 54px;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
+}
+
+.username {
+    position: absolute;
+    left: 15px;
+    top: 13px;
+    border: none;
+}
+
+.pwd {
+    position: absolute;
+    left: 278px;
+    top: 13px;
+    border: none;
+}
+
+
+/* 提交按钮部分 */
+
+#login {
+    position: absolute;
+    right: -50px;
+    top: 13px;
+    width: 50px;
+    height: 54px;
+    border: none;
+    background-image: url(../images/login_button.jpg);
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin: 121px 0;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: orange;
+    font-size: 16px;
+}
+
+
+/* 后台添加部分 */
+
+.yzm {
+    width: 340px;
+
+    overflow: hidden;
+    position: absolute;
+    top: 120px;
+
+}
+
+.yzm .verificationCode {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);vertical-align:middle;
+    margin-right:10px;
+    border: none;
+    font-size: 16px;
+
+}
+
+.yzm .verificationImg {
+    width: 100px;
+    height: 38px;
+    border: 1px solid #000;vertical-align:middle;
+    margin-right: 10px;
+  
+}
+.yzm .verificationIcon{
+    color: #fff;
+    text-decoration: none;
+    vertical-align: bottom;
+}
+.yzm .verificationIcon:hover{
+    color: orange;
+    font-size: 12px;
+}
+.sfbc{
+    position: relative;
+    width: 240px;
+    height: 40px;
+    position: absolute;
+    top: 120px;
+    left: 330px;
+     vertical-align: text-bottom;
+
+}
+.sfbc span{
+    width: 70px;
+    position: absolute;
+     bottom: 0;
+     color: #fff;
+}
+.sfbc input{
+     position: absolute;
+     bottom: 0;
+     left: 67px;
+}
+.wrong{
+
+}

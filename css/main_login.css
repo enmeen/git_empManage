@@ -1,0 +1,117 @@
+/* 左侧logo站位区 */
+
+div.login_img {
+    position: absolute;
+    left: 116px;
+    top: 31px;
+    font-size: 230px;
+    color: #fff;
+    width: 360px;
+    height: 310px;
+}
+
+
+/* 表单样式 */
+
+#main_login_form {
+    width: 600px;
+    height: 400px;
+    font-size: 16px;
+    color: gray;
+    margin-left: 606px;
+    margin-top: 150px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+form p {
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+}
+
+form p a:hover {
+    color: orange;
+}
+
+form>div {
+    margin-top: 20px;
+}
+
+div.main_login_wrapper {
+    margin: 20px auto;
+}
+
+
+/* 控制每行文本框部分 */
+
+div.main_login_wrapper>div {
+    margin-top: 16px;
+}
+
+
+/* 控制每行文本框的前面文字部分 */
+
+div.main_login_wrapper label {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    font-size: 20px;
+    text-align: right;
+}
+
+
+/* 控制每行文本框的文本框 */
+
+div.main_login_wrapper input {
+    display: inline-block;
+    margin-left: 10px;
+    height: 30px;
+    font-size: 20px;
+    vertical-align: middle;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+
+
+/* 为jq动态添加的p元素预留的样式 */
+
+div.main_login_wrapper p {
+    display: inline-block;
+    color: red;
+    font-size: 12px;
+}
+
+div.main_login_wrapper img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* form中主体的位置 */
+
+div.main_login_wrapper>div {
+    padding-left: 110px;
+}
+
+
+/* form中buttom的位置 */
+
+div.main_login_wrapper>div:last-child {
+    padding-left: 200px;
+}
+
+div.main_login_wrapper:last-child button {
+    border: none;
+    background-color: #E3E7EA;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.75);
+    margin-left: 20px;
+}
+
+div.main_login_wrapper:last-child button:hover {
+    color: orange;
+}

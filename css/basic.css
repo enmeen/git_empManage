@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 消除其在主页面中的滚动条 */
+
+body {
+    position: relative;
+    min-width: 900px;
+    overflow:hidden;
+    background: url(../images/index_background.jpg);
+    font-size: 12px;
+    color: gray;
+}
+
+
+/* main部分导航栏 */
+
+div.main_homepage_nav {
+    width: 100%;
+    font-size: 16px;
+    background-color: #E3E7EA;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: gray;
+}
+
+div.main_homepage_nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+div.main_homepage_nav a:hover {
+    color: orange;
+}

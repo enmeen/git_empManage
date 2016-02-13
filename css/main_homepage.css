@@ -1,0 +1,56 @@
+/*地址栏部分*/
+
+body>div {
+    margin-top: 30px;
+}
+
+body>div:first-child {
+    margin-top: 0;
+}
+
+
+/*导航栏窗口下的标题栏样式*/
+
+div.main_homepage_header {
+    font-size: 20px;
+    color: #fff;
+    padding-left: 100px;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+div.main_homepage_header * {
+    vertical-align: middle;
+}
+
+
+/*内容栏样式*/
+
+div.main_homepage_content {
+    font-size: 16px;
+    color: #F2F2F2;
+    text-align: left;
+    padding-left: 135px;
+}
+
+div.main_homepage_content * {
+    vertical-align: middle;
+}
+
+
+/*按钮样式*/
+
+span.button a {
+    border-radius: 5px;
+    padding: 0 5px;
+    margin-left: 10px;
+    background-color: #E3E7EA;
+    color: gray;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.75);
+    text-decoration: none;
+}
+
+span.button a:hover {
+    color: orange;
+    text-decoration: underline;
+}
