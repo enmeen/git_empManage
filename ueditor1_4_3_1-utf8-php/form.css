@@ -1,0 +1,46 @@
+/* form */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+	background-image: url(../images/background.jpg);
+	overflow: hidden;
+}
+
+
+form{
+	padding-top: 30px;
+	width: 1000px;
+}
+fieldset{
+	padding: 30px;width: 960px;
+    height: 700px;
+}
+
+legend{
+	color: #fff;
+}
+div {
+    width: 100%;
+}
+.commint{
+	margin:0 auto;
+}
+.commint_header{
+	margin: 10px;
+	color: #fff;
+}
+.commint_author{
+	width: 100px;
+}
+.commint_submit{
+	width: 70px;
+	height: 20px;border:1px solid #000;
+	line-height: 20px;
+
+}
+.commint_header input{
+	margin-right: 20px;
+}
